@@ -200,7 +200,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3181779651357914355}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.115839, y: -0.60501474, z: 0.9754573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -208,7 +208,7 @@ Transform:
   - {fileID: 8272925995870301412}
   m_Father: {fileID: 3181779651832231527}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &3181779651584413596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +221,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98edd987d530e79488b45a32a37434e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BalaPrefab: {fileID: 2590978835192530895, guid: 066312fd274be4540a81da1eca990775, type: 3}
+  clipDisparo: {fileID: 0}
+  BalaPrefab: {fileID: 2590978835192530895, guid: 3a29378ee0a27454ab8325f2765bf0b3, type: 3}
+  ParticulasDisparo: {fileID: 2543683304436845223, guid: 04ab40bc0bd332447b194dee1df54926, type: 3}
+  Slider_fuerza: {fileID: 0}
 --- !u!1 &3181779651660070857
 GameObject:
   m_ObjectHideFlags: 0
